@@ -10,12 +10,12 @@ var ctx = document.getElementById("myBarChart");
 var myLineChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["Poco Satisfecho","Probablemente poco","Indeciso","Probablemente satisfecho","Satisfecho"],
+    labels: ["Item 1","Item 2","Item 3","Item 4","Item 5","Item 6","Item 7","Item 8"],
     datasets: [{
       label: "Respuestas",
       backgroundColor: "rgba(2,117,216,1)",
       borderColor: "rgba(2,117,216,1)",
-      data: [0,7,19,10,4],
+      data: [72,64,68,60,64,56,72,68],
     }],
   },
   options: {
@@ -34,7 +34,7 @@ var myLineChart = new Chart(ctx, {
       yAxes: [{
         ticks: {
           min: 0,
-          max: 30,
+          max: 100,
           maxTicksLimit: 5
         },
         gridLines: {
