@@ -10,7 +10,7 @@ var ctx = document.getElementById("myBarChart");
 var myLineChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["Definitivamente no","Probablemente no","Indeciso","Probablemente si","Definitivamente si"],
+    labels: ["Poco Satisfecho","Probablemente poco","Indeciso","Probablemente satisfecho","Satisfecho"],
     datasets: [{
       label: "Respuestas",
       backgroundColor: "rgba(2,117,216,1)",
@@ -52,7 +52,7 @@ var ctx5 = document.getElementById("myBarChart5");
 var myLineChart5 = new Chart(ctx5, {
   type: 'bar',
   data: {
-    labels: ["Definitivamente no","Probablemente no","Indeciso","Probablemente si","Definitivamente si"],
+    labels: ["Poco Satisfecho","Probablemente poco","Indeciso","Probablemente satisfecho","Satisfecho"],
     datasets: [{
       label: "Respuestas",
       backgroundColor: "rgba(2,117,216,1)",
