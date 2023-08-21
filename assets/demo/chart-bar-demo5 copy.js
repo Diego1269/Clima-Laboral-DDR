@@ -16,7 +16,7 @@ var myLineChart = new Chart(ctx, {
       label: "Satisfacción",
       backgroundColor: "rgba(2,117,216,1)",
       borderColor: "rgba(2,117,216,1)",
-      data: [75,67.5,70,35,60],
+      data: [79.5,75.5,77.5,65.5,74.5],
     }],
   },
   options: {
