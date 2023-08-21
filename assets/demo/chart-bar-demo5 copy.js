@@ -11,7 +11,7 @@ var ctx = document.getElementById("myBarChart");
 var myLineChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["Liderazgo","Comunicación","Trabajo en equipo","Plan de vida y carrera","Perecpciones"],
+    labels: ["Liderazgoo","Comunicación","Trabajo en equipo","Plan de vida y carrera","Perecpciones"],
     datasets: [{
       label: "Satisfacción",
       backgroundColor: "rgba(2,117,216,1)",
