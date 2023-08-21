@@ -13,7 +13,7 @@ var myLineChart = new Chart(ctx, {
   data: {
     labels: ["Liderazgoo","Comunicación","Trabajo en equipo","Plan de vida y carrera","Perecpciones"],
     datasets: [{
-      label: "Satisfacción",
+      label: "Porcentaje de Satisfacción",
       backgroundColor: "rgba(2,117,216,1)",
       borderColor: "rgba(2,117,216,1)",
       data: [79.5,75.5,77.5,65.5,74.5],

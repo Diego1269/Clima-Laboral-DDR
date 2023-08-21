@@ -13,7 +13,7 @@ var myLineChart = new Chart(ctx, {
   data: {
     labels: ["Item 1","Item 2","Item 3","Item 4","Item 5","Item 6","Item 7","Item 8"],
     datasets: [{
-      label: "Respuestas",
+      label: "Porcentaje",
       backgroundColor: "rgba(2,117,216,1)",
       borderColor: "rgba(2,117,216,1)",
       data: [68,84,76,84,64,76,64,80],
